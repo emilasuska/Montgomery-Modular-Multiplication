@@ -1,5 +1,7 @@
 # Montgomery Modular Multiplication algorithm implemented in ARM Assembly
 
+![animation](mmm.gif)
+
 OpenSSL is used as the base source code to insert this optimized ARM Assembly implementation of the Montgomery Modular Multiplication algorithm.
 
 The OpenSSL RSA cryptographic algorithm (which uses the MMM algorithm) is used to the the performance of this MMM implementation and to compare it against the ARM Assembly and C code implementations that are included with OpenSSL.
